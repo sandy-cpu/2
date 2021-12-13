@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Harmony Walet Profile</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="jquery-3.6.0.js"></script>
+  <script src="aos.js"></script>
+<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js'></script> -->
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container" >
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Harmony Walet</a>
+        <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+            <span class="menuicon fa fa-bars"></span>
+        </button>
+      </div>
+        
+      <div class="navbar-collapse collapse navbar-right ">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a href="#home">HOME</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">PRODUCT <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#product1">Product 1</a></li>
+              <li><a href="#product2">Product 2</a></li>
+              <li><a href="#product3">Product 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<main id="home">
+  <div id="headerwrap">
+    <div class="container" >
+      <div class="row"> 
+        <div class="col-lg-8 col-lg-offset-2 maintext">
+          <h3 >Harmony Walet</h3>
+          <h1>Simple and Harmony Ofiice</h1>
+          <h5>Find what you need here</h5>
+          <h5>Learn more about us here</h5>
+          
+          <i class="button fa fa-chevron-down"></i>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+                <img src="images/img1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+                 <img src="images/img2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+                <img src="images/img3.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="maincontent">
+    <div class="productlist container" id="product1">
+      <h1 id="product">PRODUCT</h1>
+      <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" id="product2"><a><h3>Product 1</h3></a></div>
+      <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" id="product3"><a><h3>Product 2</h3></a></div>
+      <div data-aos="zoom-in" data-aos-anchor-placement="center-bottom" id="product4"><a><h3>Product 3</h3></a></div>
+    </div>
+  </div>
+
+  <div id="contact">
+      <div class="contactlist container">
+        <h1 id=contacts>CONTACT</h1>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-2" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" id="admin1"><a><h3><i class="fa fa-whatsapp"></i> Admin 1</h3></a></div>
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" id="admin2"><a><h3><i class="fa fa-whatsapp"></i> Admin 2 </h3></a></div>
+          <!--<p class="counter">200</p>-->
+        </div>
+        </div>
+  </div>
+</main>
+
+  <div id="footerwrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>About</h4>
+          <div class="hline-w"></div>
+          <p>Just a Simple Office</p>
+        </div>
+        <div class="col-lg-4">
+          <h4>Social Links</h4>
+          <div class="hline-w"></div>
+          <p>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <h4>Our Address</h4>
+          <div class="hline-w"></div>
+          <p>
+            Komplek Marelan Center Point,<br/>  Medan,<br/> Indonesia<br/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="Javascript.js"></script>
+</body>
+</html>
